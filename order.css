@@ -1,0 +1,47 @@
+
+body{
+    background-color: whitesmoke;
+    background-size: cover;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.card{
+    position: relative;
+    margin-top: 100px;
+    width: 800px;
+    height: auto;
+    background: #dedede;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px rgb(0, 0, 1, 2);
+
+}
+
+button {
+    background-color: #1E90FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.col-md a {
+    background-color: #1E90FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.container  form {
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}

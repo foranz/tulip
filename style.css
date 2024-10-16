@@ -1,0 +1,87 @@
+.container  form {
+  text-decoration: none;
+  color: red;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card p{
+  margin-top: -10px;
+  margin-bottom: 1px;
+}
+
+.row.card:hover{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+  transform: scale(1.02);
+}
+
+.jumbotron {
+  background-color: grey;
+  opacity: 0.8;
+  background-image: url('asset/klinik.jpg'); 
+  background-size: cover;
+  height: 770px;
+  text-align: center;
+  text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: -180px;
+  
+}
+
+.jumbotron h1{
+  color: #228B22;
+  z-index: 1;
+  padding-top: 300px;
+  margin-top: 200px;
+  font-family: 'Cooper Black'
+}
+
+.jumbotron h2 {
+  color: white;
+  font-size: 25px;
+}
+
+.jumbotron hr {
+  border-color: #F05F40;
+  width: 70px;
+  border-width: 3px;
+}
+.jumbotron .btn {
+  background-color: #F05F40;
+  border: none;
+  border-radius: 20px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-top: 40px;
+}
+
+hr {
+  border-color: #F05F40;
+  width: 70px;
+  border-width: 3px;
+  text-align: center;
+
+}
+
+footer {
+  color: blue;
+}
+
+#list-group{
+  z-index: 2;
+  margin-left: 50px;
+}
+#carouselExample{
+  position: absolute;
+  width: 1099px;
+  height: 470px;
+  margin-left: 400px;
+  margin-right: -300px;
+  z-index: 1;
+}
+
+
+
